@@ -14,26 +14,29 @@ TaskRabbit is a backend application built using Node.js and the Express framewor
 -Token-based authentication using JSON Web Tokens (JWT) for secure access.
 -Implements user schema to store user information in the database.
 
----------------------------------------------------------------
+------------------------
 
 **2. User Profile**
 
 -Allows users to update their profile information, including name, email, and other details.
 -Real-time validation of user inputs.
 
-------------------------------------------------------------
+-------------------------
 
 **3. Image Upload**
 
 -Users can upload profile images.
 -Image uploads are handled using the Multer package.
 -Images are securely stored in the uploads folder on the server.
+
+-------------------------
+
 **4. Task Management**
 -Enables users to create, update, delete, and manage tasks.
 -Tasks are linked to individual users for a personalized experience.
 -Implements a task schema to store task-related information in the database.
 
---------------------------------------------------------------------------
+-------------------------
 
 ###Technologies Used
 
