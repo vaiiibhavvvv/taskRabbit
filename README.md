@@ -1,16 +1,26 @@
-# taskRabbit
-Created a bakend application taskRabbit using nodejs and express framework based on MVC pattern
+# TaskRabbit Backend Application
+**Overview**
+TaskRabbit is a backend application built using Node.js and the Express framework, following the Model-View-Controller (MVC) architecture. It provides essential features for user management, task organization, and secure image uploads.
 
 ## Features
-Added following features
-
- -User registration
- -User profile
- -Image Upload
- -Task Management
-
--Created user schema and task schema to store to store data of user and task
--Defined operations for user in userController and for task in taskController
-
--Implemented token based authentication method and used JWT for authentication
--For image upload, used multer package and implemented image storage un uploads folder
+**1. User Registration and Authentication**
+User registration system with secure password handling.
+Token-based authentication using JSON Web Tokens (JWT) for secure access.
+Implements user schema to store user information in the database.
+**2. User Profile**
+Allows users to update their profile information, including name, email, and other details.
+Real-time validation of user inputs.
+**3. Image Upload**
+Users can upload profile images.
+Image uploads are handled using the Multer package.
+Images are securely stored in the uploads folder on the server.
+**4. Task Management**
+Enables users to create, update, delete, and manage tasks.
+Tasks are linked to individual users for a personalized experience.
+Implements a task schema to store task-related information in the database.
+###Technologies Used
+**Backend:** Node.js, Express.js
+**Authentication:** JSON Web Tokens (JWT)
+**Image Uploads:** Multer
+**Database:** MongoDB
+**Architecture:** Model-View-Controller (MVC) pattern
